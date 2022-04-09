@@ -6,12 +6,40 @@
   </ion-toolbar>
 </ion-header>
 
+
+
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-title size="large">Transferencias</ion-title>
     </ion-toolbar>
   </ion-header>
+  <hr>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-item>
+    <ion-label>Seleccionar cuenta</ion-label>
+    <ion-select  >
+        <ion-select-option >cuenta 1</ion-select-option>
+    </ion-select>
+</ion-item>
+
+<ion-item>
+  <ion-label>cuenta destino</ion-label>
+  <ion-select  >
+    <ion-select-option >cuenta 2</ion-select-option>
+  </ion-select>
+</ion-item>
+
+<ion-item>
+  <ion-label>Monto $</ion-label>
+  <ion-input type="number">
+  </ion-input>
+</ion-item>
+
+
+  <ion-button>Transferir</ion-button>
+ 
+
+  
+  <!--app-explore-container name="Tab 2 page"></app-explore-container-->
 </ion-content>

@@ -3,7 +3,19 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+//Constante que conecta a firebase  Real Time DataBase
+firebaseConfig: {
+  apiKey: "AIzaSyAuroyAxdvElNd7MuS0yE-tTjockI9MJ94",
+  authDomain: "bdcuenta-b14a4.firebaseapp.com",
+  databaseURL: "https://bdcuenta-b14a4-default-rtdb.firebaseio.com",
+  projectId: "bdcuenta-b14a4",
+  storageBucket: "bdcuenta-b14a4.appspot.com",
+  messagingSenderId: "527814944131",
+  appId: "1:527814944131:web:3072a74f633ccc647002b6",
+  measurementId: "G-0JYDK4TP7B"
+}
+
 };
 
 /*
